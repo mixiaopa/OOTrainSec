@@ -5,7 +5,6 @@ public class Meter {
 
     public Meter(double i) {
         this.value = i;
-        //To change body of created methods use File | Settings | File Templates.
     }
 
     public Meter add(Meter meter) {
@@ -30,6 +29,5 @@ public class Meter {
     public KiloMeter transformToKiloMeter() {
         double v = this.value/1000;
         return new KiloMeter(v);
-
     }
 }

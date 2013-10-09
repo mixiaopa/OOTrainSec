@@ -9,9 +9,7 @@ public class TransformUnitTest {
     @Test
     public void shouldGetOneKiloMeterWhenGivenOneThousandMeters() throws Exception {
         Meter meter = new Meter(1000);
-
         KiloMeter kiloMeter = meter.transformToKiloMeter();
-
         assertThat(kiloMeter.getValue(), is(1.0));
     }
 
@@ -19,7 +17,6 @@ public class TransformUnitTest {
     public void shouldGetTwoKiloMeterWhenGivenTwoThousandMeters() throws Exception {
         Meter meter = new Meter(2000);
         KiloMeter kiloMeter = meter.transformToKiloMeter();
-
         assertThat(kiloMeter.getValue(), is(2.0));
     }
 
