@@ -1,4 +1,4 @@
-package length;
+package notUsed;
 
 public class KiloMeter {
     private Double value;
